@@ -1,0 +1,195 @@
+@charset "EUC-KR";
+
+
+/* css 기본 설정 */
+*{ margin : 0; padding: 0; font-family: "맑은 고딕" }
+a{ text-decoration: none; color: black; }
+a:hover { order: #eeeeee; }
+li{ list-style-type: none; }
+
+
+
+
+/* 로그인 메인*/
+
+.loginbox{
+	padding-top : 50px;
+	width: 1000px;
+	margin: 0 auto;
+	display: flex;
+	
+}
+.loginimg{
+	width: 600px;
+	height: 500px;
+}
+
+
+.logininput{
+	width: 500px;
+	display : inline-block;
+	margin: 0 auto;
+	text-align: center;
+}
+.logininput h3{
+	padding-top : 10px;
+	margin: 0 auto;
+	margin-bottom: 70px;
+}
+.logininput input{
+	width : 400px;
+	height: 40px;
+	margin: 5px;
+	border-radius:3px;
+	
+}
+
+.loginbtn{
+	background-color: #fbd005;
+	color : black;
+	font-weight : bold;
+	font-size : 15px;
+	border : none;
+	border-radius:3px;
+	width: 400px;
+	margin : 10px;
+	height: 50px;
+}
+.ft_box{
+	font-size: 10px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+
+	
+#slider {
+  width: 500px;
+  height: 430px;
+  overflow: hidden;
+  border: 1px solid #ffffff;
+}
+
+.slide {
+  width: 500px;
+  height: 430px;
+  float: left;
+  position: relative;
+}
+.slide img{
+	width: 500px;
+	height: 430px;
+}
+
+#slide-holder {
+  width: 500%;
+  position: relative;
+  left: 0;
+  -webkit-animation: scroller 10s infinite;
+          animation: scroller 10s infinite;
+}
+
+@-webkit-keyframes scroller {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-500px);
+  }
+  66% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes scroller {
+  0% {
+    transform: translateX(0);
+  }
+  33% {
+    transform: translateX(-500px);
+  }
+  66% {
+    transform: translateX(-1000px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+body {
+  font-family: sans-serif;
+}
+
+#slider {
+  margin: 0 auto;
+}
+
+.slide:nth-child(1) {
+  background: #c69;
+}
+
+.slide:nth-child(2) {
+  background: wheat;
+}
+
+.slide:nth-child(3) {
+  background: #eee;
+}
+
+
+/*--------------------- 계좌찾기 -----------------------------*/
+.search_form{
+	display: flex; flex-direction: column;
+	flex-wrap: wrap; align-content: center;
+	
+	
+}
+.searchbox{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: rgba(251, 250, 205, 0.3);
+	width: 500px;
+	height:400px;
+	padding: 20px;
+   	cursor:pointer;
+ 	border-radius:15px;
+}
+.searchbox h3{
+	font-size: 40px; text-align: center; padding: 10px;
+
+}
+
+.search_form input{
+   font-weight: bold;
+   width: 250px;
+   margin: 10px 35px 10px ;
+   height: 35px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #F8FFDB;
+}
+.search_form button{
+   text-align:center;
+   font-weight: bold;
+   width: 130px;
+   margin:0 auto;
+   margin-top: 10px;
+   height: 35px;
+   border-radius: 3px;
+   outline: none;
+   border: none;
+   background: #FFCBCB;
+   color: white;
+   font-size: 13px;
+   cursor: pointer;
+} 
+.account_result{
+	text-align: center;
+	margin-top: 30px;
+	font-size: 30px;
+} 

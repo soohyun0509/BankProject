@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*--------- 대출상품 --------------*/
+.loancontent{display: flex; justify-content: center; line-height: 200%;}
+.loancontent div{margin: 10px 50px 50px 0;}
+.loanform{
+   display: none;
+   width: 500px;
+   height: auto; margin-right: 20px;
+   cursor:pointer;
+   border-radius:15px;
+   border: 1px #7D6E83 solid;
+	
+}
+.borderClass{
+	border: 1px solid #DFD3C3;
+}
+.minibtn{
+   font-weight: bold;
+   width: 90px;
+   margin-top: 10px;
+   height: 35px;
+   border-radius: 3px;
+   outline: none;
+   border: none;
+   background: #DFD3C3;
+   color: white;
+   font-size: 13px;
+   cursor: pointer;
+}
+
+/*--------- 대출 신청 폼 ------------*/
+.loanform h3{
+   color:#748194;
+   font-size:30px;
+   text-align:center;
+   margin: 20px 0;
+
+}
+#amount{margin-bottom: 30px;}
+
+
+
+

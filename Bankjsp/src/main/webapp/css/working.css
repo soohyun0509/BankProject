@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/*-------------------- 입금페이지 -----------------------------*/
+/* .deposit_banner , .withdraw_banner{
+	width: 1200px; height: 300px;
+	background-image: url("/Bankjsp/image/bank.jpg");
+	background-size: cover;
+	background-position: 10% -300px;
+	background-repeat: no-repeat;
+	opacity: 0.7;
+} */
+
+.depositBox, .withdrawBox, .transferBox{width: 1200px; height: 100%;}
+
+.deposit_container, .withdraw_container, .transfer_container{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: rgba(239, 245, 245, 0.5);
+	width: 500px;
+	height:600px;
+	padding: 20px;
+   	cursor:pointer;
+ 	border-radius:15px;
+  	border: 2px #EEF1FF solid;
+}
+
+.deposit_container h3, .withdraw_container h3,
+.transfer_container h3{
+	font-size: 40px; text-align: center; padding: 10px;
+	border-bottom: 2px solid #9ED5C5;
+	
+}
+.deposit_form, .withdraw_form, .transfer_form{
+	display: flex; flex-direction: column;
+	flex-wrap: wrap; align-content: center;
+	
+}
+.deposit_money , .withdraw_money, .transfer_money{
+	margin: 20px;
+}
+
+.deposit_form input , .withdraw_money input,
+.transfer_money input{
+   font-weight: bold;
+   width: 250px;
+   margin: 10px 35px 10px ;
+   height: 35px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #BCEAD5;
+  
+}
+
+.deposit_form button, .withdraw_form button,
+.transfer_form button{
+	text-align:center;
+	font-weight: bold;
+   width: 130px;
+   margin:0 auto;
+   margin-top: 10px;
+   height: 35px;
+   border-radius: 3px;
+   outline: none;
+   border: none;
+   background: #8EC3B0;
+   color: white;
+   font-size: 13px;
+   cursor: pointer;
+}
+.depositResult{
+	margin-top: 20px;
+	height: 200px;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: rgba(158, 213, 197, 0.2);
+	box-shadow: 1px 1px 3px 1px #8EC3B0;
+}
+.depositResult h6 , .withdraw_testBox h6,
+.transfer_testBox h6{
+	font-size: 30px; 
+	margin: 10px;
+}
+
+/*-------------------- 출금페이지 -----------------------------*/
+.withdraw_testBox{
+	margin-top: 30px;
+	height: 330px;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: rgba(158, 213, 197, 0.2);
+	box-shadow: 1px 1px 3px 1px #8EC3B0;
+	
+}
+.test1{
+	padding : 10px;
+	height: 100px;
+	line-height: 160%; font-size: 18px;
+}
+.withdrawResult{
+	font-size:20px;
+	height: 100px;
+}
+.test1 button{
+	width: 80px;
+}
+
+/*-------------------- 계좌이체페이지 -----------------------------*/
+.transfer_testBox{
+	margin-top: 30px;
+	height: 330px;
+	border-radius: 10px;
+	padding: 10px;
+	text-align: center;
+	background-color: rgba(158, 213, 197, 0.2);
+	box-shadow: 1px 1px 3px 1px #8EC3B0;
+}
+
+.transfer_container{
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color: rgba(239, 245, 245, 0.5);
+	width: 500px;
+	height:700px;
+	padding: 20px;
+   	cursor:pointer;
+ 	border-radius:15px;
+  	border: 2px #EEF1FF solid;	
+}

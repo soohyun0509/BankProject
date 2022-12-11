@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+/*-------------- 적금 , 대출 ------------------*/
+.a_container{
+	width:1200px;
+	margin: 0 auto;
+	height: 1200px;
+	text-align: center;
+}
+.a_container h3{
+	padding-bottom: 20px;	margin: 20px 0;
+	
+}
+
+.delBtn{
+  font-weight: bold;
+   width: 80px;
+   height: 45px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #FFE3E1;
+   font-size: 14px;
+   text-align: center;
+   cursor: pointer;	
+	
+	
+}
+.addBtnBox{
+	width : 300px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+.addBtn, .loanaddbtn, .savingaddbtn{
+  font-weight: bold;
+   width: 200px;
+   height: 45px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #FFE3E1;
+   font-size: 14px;
+   text-align: center;
+   cursor: pointer;		
+	
+}
+.laonaddinput ,.savingaddinput{
+	margin: 0 auto;
+	
+}
+.loadAddBox, .savingAddBox{
+   display: inline-block;
+   width: 400px;
+   cursor:pointer;
+   border-radius:15px;
+   margin-top : 50px;
+   padding : 20px 0;
+   border: 1px solid #D0B8A8;
+   text-align: center;
+   background-color: rgba(242, 215, 217,0.2);
+}
+
+.laonaddinput input , .savingaddinput input{
+   font-weight: bold;
+   width: 200px;
+   margin: 10px 35px 10px ;
+   height: 35px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background-color: rgba(211, 206, 223, 0.5);
+   font-size: 14px;
+}
+
+/*-------------- 서버관리 ------------------*/
+.server_container{
+	width: 200px;
+	margin: 0 auto;
+}
+.server_container h3{margin: 30px 0; text-align: center;}
+.server_container button{
+   font-weight: bold;
+   width: 200px;
+   height: 45px;
+   padding: 6px 15px;
+   outline: none;
+   border: none;
+   background: #A4BE7B;
+   font-size: 15px;
+   text-align: center;
+   cursor: pointer;	
+	
+}

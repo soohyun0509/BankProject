@@ -1,0 +1,223 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'KOTRAHOPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/KOTRAHOPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.index_box{
+	width : 1200px;	/*가로길이*/
+	margin: 0 auto;	/*박스 가운데 정렬*/
+	height: 1500px;
+}
+.index_banner{
+	background-image: url("/Bankjsp/image/login1.png");
+	width:100%;
+	height: 400px;
+	background-position: 22% 50%;
+	margin-bottom: 20px;
+}
+.index_container{
+	height: 1200px;
+}
+.index_links{
+	height: 900px;
+	text-align: center;
+	
+	
+}
+.index_link{
+	height: 450px;
+	width: 500px;
+	float: left;
+	background-color: gray;
+	margin: 25px 20px 20px 60px;
+	position: relative;
+}
+
+.index_link1_img, .index_link2_img,
+.index_link3_img, .index_link4_img{
+	height: 450px;
+	width: 500px;	
+	background-size : cover;
+	opacity: 0.6
+}
+.index_link1_img{background-image: url("/Bankjsp/image/bank2.jpg");}
+.index_link2_img{background-image: url("/Bankjsp/image/bank3.jpg");}
+.index_link3_img{background-image: url("/Bankjsp/image/bank4.jpg");}
+.index_link4_img{background-image: url("/Bankjsp/image/bank5.jpg");}
+
+
+.index_text{
+	position: absolute;
+	top:150px;
+	background-color: #7895B2;
+	width: 500px; height: 70px;
+	margin: 0 auto;
+	border-radius: 10px;
+	color: white;	text-align: center;
+	font-size: 35px;
+	padding-top: 50px;
+}
+/*--------------------- 채팅 ------------------------------*/
+
+.label-container{
+  position:fixed;
+  bottom:48px;
+  right:105px;
+  display:table;
+  visibility: hidden;
+}
+
+.label-text{
+  color:#FFF;
+  background:rgba(51,51,51,0.5);
+  display:table-cell;
+  vertical-align:middle;
+  padding:10px;
+  border-radius:3px;
+}
+
+.label-arrow{
+  display:table-cell;
+  vertical-align:middle;
+  color:#333;
+  opacity:0.5;
+}
+
+.floatBtn{
+  position:fixed;
+  width:60px;
+  height:60px;
+  bottom:40px;
+  right:40px;
+  background-color:#06C;
+  color:#FFF;
+  border-radius:50px;
+  text-align:center;
+  box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+  font-size:24px;
+  margin-top:18px;
+}
+
+a.floatBtn + div.label-container {
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.5s ease;
+}
+
+a.floatBtn:hover + div.label-container{
+  visibility: visible;
+  opacity: 1;
+}
+
+
+
+.popup-wrap{
+  background-color:rgba(0,0,0,.3); 
+  justify-content:center;
+  align-items:center;  
+  position:fixed; 
+  bottom:100px;
+  right:200px;
+  display:none; 
+  padding:15px; 
+  overflow-y: scroll; 	/*세로 스크롤*/
+}
+.popup{
+  width:100%;
+  max-width:400px;
+  border-radius:10px;
+  position: fixed;
+  bottom:100px;
+  right:200px;
+  overflow:hidden;
+  background-color:#A3D2CA;
+  box-shadow: 5px 10px 10px 1px rgba(0,0,0,.3); 
+}
+.popup-head{
+  width:100%;
+  height:50px; 
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.popup-body{  
+  width:100%;
+  background-color:#ffffff;
+}
+.body-content{
+  width:90%;
+  padding:30px;  
+}
+.body-titlebox{ 
+  text-align:center;   
+  width:100%;
+  height:40px;
+  margin-bottom:10px;  
+}
+.body-contentbox{      
+  word-break:break-word; 
+  overflow-y:auto;         
+  min-height:100px;     
+  max-height:500px;     
+  
+}
+ .popup-foot{ 
+  width:100%;
+  height:50px;
+}
+.pop-btn{ 
+  display:inline;
+  display: flex; 
+  width:50%;       
+  height:100%;                
+  justify-content:center;       
+  align-items:center;            
+  float:left;                  
+  color:#ffffff;                
+  cursor:pointer;                
+}
+.pop-btn.confirm{                 
+  border-right:1px solid #A3D2CA; 
+}
+
+textarea{resize: none; width: 220px; height: 70px; font-size: 20px;}
+.sendBtn{
+	background-color: #A3D2CA;
+	width:120px;
+	height:50px;
+	padding: 10px;
+	border: none;
+}
+.sendbox{
+	display: flex;
+	justify-content: space-around;
+}
+.c_msg{text-align: right; margin-bottom: 10px; padding: 10px;}
+.adminmsg{text-align: left; margin-bottom: 10px; padding: 10px;}
+.adminmsg .msg_content{
+	margin: 0px 0px 5px 10px;
+	padding: 2px;
+	font-size: 25px;
+	border-radius: 10px;
+	background-color: #A3D2CA;
+	
+}
+.alarm{text-align: center; background-color: #f3fed3; font-size: 20px;}
+.msg_date{font-size: 2px;}
+.c_msg .msg_content{
+	margin: 0px 0px 5px 10px;
+	padding: 2px;
+	font-size: 20px;
+	background-color: #c6c6ff;
+	border-radius: 10px;
+}
+.msg_content{
+	font-family: 'KOTRAHOPE';
+}
+

@@ -1,0 +1,88 @@
+@charset "UTF-8";
+/*------전체---------*/
+.b_container{
+   display: flex; justify-content: center;
+   height: 800px;
+   
+}
+/*--------- 적금상품 --------------*/
+
+.savingcontent{
+	display: flex; justify-content: space-around;
+	margin-top: 30px;
+	width: 800px; height: 300px;
+	line-height: 200%;
+}
+.borderClass{
+	border: 1px solid #DFD3C3;
+	
+}
+.savingcontent div{
+	margin: 10px 50px 50px 0;
+	
+}
+.savingform{
+   display: none;
+   width: 500px;
+   margin : 0 auto;
+   height: auto;
+   cursor:pointer;
+   border-radius:15px;
+   border: 1px #7D6E83 solid;
+	
+}
+.minibtn{
+   font-weight: bold;
+   width: 90px;
+   margin-top: 10px;
+   height: 35px;
+   border-radius: 3px;
+   outline: none;
+   border: none;
+   background: #DFD3C3;
+   color: white;
+   font-size: 13px;
+   cursor: pointer;
+}
+/*--------- 대출 신청 폼 ------------*/
+.savingform h3{
+   color:#748194;
+   font-size:30px;
+   text-align:center;
+   margin: 20px 0;
+
+}
+#amount{margin-bottom: 30px;}
+
+.signupBtn{
+   font-weight: bold;
+   width: 230px;
+   margin: 0 35px 50px 120px;
+   height: 45px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #D0B8A8;
+   color: white;
+   font-size: 14px;
+   text-align: center;
+   cursor: pointer;
+}
+
+/*------input 꾸미기---------*/
+.inputType{
+   font-weight: bold;
+   width: 200px;
+   margin: 10px 35px 10px ;
+   height: 35px;
+   padding: 6px 15px;
+   border-radius: 5px;
+   outline: none;
+   border: none;
+   background: #F6F7F9;
+   color: #748194;
+   font-size: 14px;
+}
+
+
